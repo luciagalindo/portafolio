@@ -1,5 +1,6 @@
 Portafolios de inspiración:
 
-https://ndo.dev
-https://www.kennytye.com
-https://www.miriamsuzanne.com
+
+https://typographyprinciples.obys.agency/
+https://www.awwwards.com/inspiration/emergence-magazine-online-publication
+https://www.awwwards.com/sites/julia-johnson

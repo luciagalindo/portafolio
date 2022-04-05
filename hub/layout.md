@@ -1,4 +1,8 @@
 Inspiración de layout:
 
-https://ndo.dev
-https://www.miriamsuzanne.com
+https://aliciamoore.com/
+https://ussr.obys.agency/1922-1930/
+https://www.chiaraluzzana.com/
+https://www.awwwards.com/inspiration/dillinger-film-production
+https://typographyprinciples.obys.agency/
+
