@@ -76,6 +76,11 @@ body {
   color: var(--black);
 }
 
+/* Home */
+.home {
+  position: relative;
+}
+
 /* Menu */
 .menu {
   border: 2px solid black;
@@ -129,4 +134,26 @@ body {
   position: fixed;
   bottom: 10px;
   left: 10px;
+}
+
+/* imagenes */
+.home .imagenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: max-content;
+  gap: 120px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.home .imagenes img {
+  width: 400px;
+}
+
+.home .imagenes img:nth-child(2) {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+.home .imagenes img:nth-child(3) {
+  grid-row: 3 / 4;
 }
