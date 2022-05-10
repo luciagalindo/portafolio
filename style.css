@@ -1,9 +1,14 @@
 /* Imports - Tipografía */
 @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+
+html {
+  font-family: 'Inter', sans-serif;
+}
 
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
 }
 
 /* Reset */
@@ -46,13 +51,14 @@ picture {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-    scroll-behaviour: auto !important;
+    /* scroll-behaviour: auto !important; */
   }
 }
 
@@ -91,44 +97,44 @@ body {
   width: 35vw;
   margin-left: auto;
 }
-.menu ul{
+
+.menu ul {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
 }
-.menu ul li {
+
+/* .menu ul li {
+} */
+.menu ul li:nth-child(1) {}
+
+.menu ul li:nth-child(2) {
+  margin-top: auto;
+  height: 120 px;
 
 }
-.menu ul li:nth-child(1){
-  height: 200px;
-  background-image: url(https://picsum.photos/120/100);
-  background-repeat: no-repeat;
-  background-position: bottom;
+
+.menu ul li:nth-child(3) {
+  margin-top: top;
+  height: 120 px;
+  width: 70px;
+
 }
-.menu ul li:nth-child(2){
-  height: 120px;
-  background-image: url(https://picsum.photos/120/100);
-  background-repeat: no-repeat;
-  background-position: top;
+
+.menu ul li:nth-child(4) {
+  margin-top:;
+  
 }
-.menu ul li:nth-child(3){
-  height: 100px;
-  background-image: url(https://picsum.photos/120/100);
-  background-repeat: no-repeat;
-  background-position: left;
+
+.menu ul li:nth-child(5) {
+  margin-top: top;
 }
-.menu ul li:nth-child(4){
-  height: 200px;    background-image: url(https://picsum.photos/120/100);
-  background-repeat: no-repeat;
-  background-position: right;
+
+.menu ul li:nth-child(6) {
+  margin-top: auto;
+  width: 70px;
 }
-.menu ul li:nth-child(5){
-  background-image: url(https://picsum.photos/120/100);
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-.menu ul li:nth-child(6){
-  background-image: url(https://picsum.photos/120/100);
-  background-repeat: no-repeat;
-  background-position: bottom;
+
+.menu ul img {
+  object-fit: contain;
 }
