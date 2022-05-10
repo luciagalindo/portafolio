@@ -1,16 +1,3 @@
-/* Imports - Tipografía */
-@import url('https://rsms.me/inter/inter.css');
-
-html {
-  font-family: 'Inter', sans-serif;
-}
-
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: 'Inter var', sans-serif;
-  }
-}
-
 /* Reset */
 *,
 *::before,
@@ -51,7 +38,6 @@ picture {
 }
 
 @media (prefers-reduced-motion: reduce) {
-
   *,
   *::before,
   *::after {
@@ -68,7 +54,7 @@ picture {
   --black: #000000;
   --white: #ffffff;
   /* 2. Tipografía */
-  --font-sans: 'Inter var', sans-serif;
+  --font-sans: "Inter var", sans-serif;
   --font-size-1: 1rem;
   --font-size-2: 1.1rem;
   --font-size-3: 1.25rem;
@@ -106,24 +92,22 @@ body {
 
 /* .menu ul li {
 } */
-.menu ul li:nth-child(1) {}
+.menu ul li:nth-child(1) {
+}
 
 .menu ul li:nth-child(2) {
   margin-top: auto;
   height: 120 px;
-
 }
 
 .menu ul li:nth-child(3) {
   margin-top: top;
   height: 120 px;
   width: 70px;
-
 }
 
 .menu ul li:nth-child(4) {
-  margin-top:;
-  
+  margin-top: ;
 }
 
 .menu ul li:nth-child(5) {
@@ -137,4 +121,12 @@ body {
 
 .menu ul img {
   object-fit: contain;
+}
+
+.home .titulo {
+  font-size: 120px;
+  font-family: "Inter";
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
 }
