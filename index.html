@@ -10,40 +10,36 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 
 <body>
   <div class="home">
 
+    <nav class="menu" x-data="{ open: false }">
 
-    <nav class="menu">
-      <ul>
-        <li>
-          <!-- Color -->
-          <img src="https://res.cloudinary.com/dwlywxeck/image/upload/v1650997722/Untitled-1-01_ipemrt.png" alt="">
-        </li>
-        <li>
-          <!-- Animación -->
-          <img src="https://res.cloudinary.com/dwlywxeck/image/upload/v1650997722/Untitled-1-02_snokwe.png" alt="">
-        </li>
-        <li>
-          <!-- Diseño editorial -->
-          <img src="https://res.cloudinary.com/dwlywxeck/image/upload/v1650997722/Untitled-1-03_h38zna.png" alt="">
-        </li>
-        <li>
-          <!-- Ilustración -->
-          <img src="https://res.cloudinary.com/dwlywxeck/image/upload/v1650997722/Untitled-1-04_z3ixbn.png" alt="">
-        </li>
+      <img class="menu-click" x-on:click="open = !open" src="./image.svg" alt="">
 
-        <li>
-          <!-- Tipografía -->
-          <img src="https://res.cloudinary.com/dwlywxeck/image/upload/v1650997722/Untitled-1-05_sqvlf0.png" alt="">
+      <ul x-show="open">
+        <li class="menu-item rojo">
+          <p>bla</p>
         </li>
-
-        <li>
-          <!-- Identidad -->
-          <img src="https://res.cloudinary.com/dwlywxeck/image/upload/v1650997722/Untitled-1-06_lvl5t8.png" alt="">
+        <li class="menu-item azul">
+          <p>bla</p>
         </li>
+        <li class="menu-item verde">
+          <p>bla</p>
+        </li>
+        <li class="menu-item rosa">
+          <p>bla</p>
+        </li>
+        <li class="menu-item rojo">
+          <p>bla</p>
+        </li>
+        <li class="menu-item azul">
+          <p>bla</p>
+        </li>
+        <!-- Animación -->
       </ul>
     </nav>
 
