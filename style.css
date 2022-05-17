@@ -168,3 +168,37 @@ body {
 .home .imagenes img:nth-child(3) {
   grid-row: 3 / 4;
 }
+
+/* Menu items */
+.menu-item {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 150px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+.menu-item p {
+  margin-top: auto;
+  color: white;
+}
+
+.menu-item.rojo {
+  background: red;
+}
+
+.menu-item.azul {
+  background: blue;
+  transform: rotate(180deg);
+}
+
+.menu-item.verde {
+  background: green;
+}
+
+.menu-item.rosa {
+  background: pink;
+}
+
+
