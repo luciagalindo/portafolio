@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Lucía</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+
+<body class="proyecto-individual">
+  <div class="home">
+
+    <nav class="menu" x-data="{ open: false }">
+
+      <img class="menu-click" x-on:click="open = !open"
+        src="https://res.cloudinary.com/dwlywxeck/image/upload/v1652813635/image_wnegdz.svg" alt="">
+
+      <ul x-show="open">
+        <li class="menu-item rojo">
+          <p>Identidad</p>
+        </li>
+        <li class="menu-item azul">
+          <p>Color</p>
+        </li>
+        <li class="menu-item verde">
+          <p>Diseño editorial</p>
+        </li>
+        <li class="menu-item rosa">
+          <p>Tipografía</p>
+        </li>
+        <li class="menu-item naranja">
+          <p>Animación</p>
+        </li>
+        <li class="menu-item gris">
+          <p>Ilustración</p>
+        </li>
+        <!-- Animación -->
+      </ul>
+    </nav>
+    <div class="carrusel"></div>
+    <div class="descripcion">
+
+      <h2 class="">cuco</h1>
+      <div class="icono"></div>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, aliquid! Perferendis, facere expedita ad
+        laboriosam, rerum magni culpa dignissimos facilis officiis hic architecto ipsum a dicta ipsa. Dolor, itaque
+        eius!</p>
+    </div>
+
+  </div>
+</body>
+
+</html>
