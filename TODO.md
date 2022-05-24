@@ -10,7 +10,7 @@ Organización de tareas por completar para terminar el proyecto portafolio.
       https://github.com/luciagalindo/portafolio/blob/0a44061203aaab62ba22326889ae77d7337db326/index.html#L24-L41
 - [ ] Crear un favicon.ico y ponerlo en la cabeza del documento
       https://github.com/luciagalindo/portafolio/blob/0a44061203aaab62ba22326889ae77d7337db326/index.html#L5-L13
-- [ ] Crear markup/formato de una sección pendiente
+- [✓] Crear markup/formato de una sección pendiente
 
 ### En proceso
 
