@@ -88,6 +88,8 @@ body {
   height: 100vh;
   width: 35vw;
   margin-left: auto;
+  /* background-color: red;
+  ; */
 }
 
 .menu-click {
@@ -168,7 +170,7 @@ body {
   gap: 120px;
   position: absolute;
   top: 0;
-  z-index: -1;
+  /* z-index: 1; */
 }
 
 .home .imagenes img {
@@ -194,23 +196,31 @@ body {
 }
 
 .proyecto-individual .home .menu {
+  z-index: 1;
   position: absolute;
   right: 0;
 }
 
-.proyecto-individual .home {
+/* .proyecto-individual .home {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
+} */
 
 .proyecto-individual .carrusel {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 32%;
+  place-items: center;
+  gap: 20px;
   position: relative;
-  object-fit: cover;
+
   background: rgb(255, 255, 255);
-  display: flex;
+  /* display: flex; */
+}
+
+.proyecto-individual .carrusel img {
+  object-fit: cover;
+  padding-bottom: 10vh;
 }
 
 
@@ -259,5 +269,20 @@ body {
 
   background-color: #ffffff;
 
+
+}
+
+.proyecto-individual .descripcion .icono {
+  position: relative;
+
+}
+
+.proyecto-individual .descripcion .icono p {
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
 
 }
