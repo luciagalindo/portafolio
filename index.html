@@ -13,37 +13,37 @@
   <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 
-<body>
+<body class="inicio">
+
+  <nav class="menu" x-data="{ open: false }">
+
+    <img class="menu-click" x-on:click="open = !open"
+      src="https://res.cloudinary.com/dwlywxeck/image/upload/v1652813635/image_wnegdz.svg" alt="">
+
+    <ul x-show="open">
+      <li class="menu-item rojo">
+        <a href="./identidad.html">Identidad</a>
+      </li>
+      <li class="menu-item azul">
+        <a href="">Color</a>
+      </li>
+      <li class="menu-item verde">
+        <a href="">Diseño editorial</a>
+      </li>
+      <li class="menu-item rosa">
+        <a href="">Tipografía</a>
+      </li>
+      <li class="menu-item naranja">
+        <a href="">Animación</a>
+      </li>
+      <li class="menu-item gris">
+        <a href="">Ilustración</a>
+      </li>
+      <!-- Animación -->
+    </ul>
+  </nav>
+
   <div class="home">
-
-    <nav class="menu" x-data="{ open: false }">
-
-      <img class="menu-click" x-on:click="open = !open"
-        src="https://res.cloudinary.com/dwlywxeck/image/upload/v1652813635/image_wnegdz.svg" alt="">
-
-      <ul x-show="open">
-        <li class="menu-item rojo">
-          <p>Identidad</p>
-        </li>
-        <li class="menu-item azul">
-          <p>Color</p>
-        </li>
-        <li class="menu-item verde">
-          <p>Diseño editorial</p>
-        </li>
-        <li class="menu-item rosa">
-          <p>Tipografía</p>
-        </li>
-        <li class="menu-item naranja">
-          <p>Animación</p>
-        </li>
-        <li class="menu-item gris">
-          <p>Ilustración</p>
-        </li>
-        <!-- Animación -->
-      </ul>
-    </nav>
-
     <a href="">
       <h1 class="titulo">LUCÍA GALINDO</h1>
     </a>
@@ -55,9 +55,10 @@
           src="https://res.cloudinary.com/dwlywxeck/image/upload/v1651846119/rarjetas_de_presentacio%CC%81n_ckstqi.jpg"
           alt="cuco">
       </a>
-      <a href="./malba.html"><img src="https://res.cloudinary.com/dwlywxeck/image/upload/v1651846115/posterssep2_hjgu79.jpg" alt="MALBA"></a>
+      <a href="./malba.html"><img
+          src="https://res.cloudinary.com/dwlywxeck/image/upload/v1651846115/posterssep2_hjgu79.jpg" alt="MALBA"></a>
 
-      <a href="Tabudelamenstruacion">
+      <a href="tabudelamenstruacion.html">
         <img src="https://res.cloudinary.com/dwlywxeck/image/upload/v1651846106/tramas_pivy7s.jpg"
           alt="El tabú de la menstruación">
       </a>

@@ -115,11 +115,16 @@ body {
   width: 150px;
   border-top-right-radius: 100px;
   border-top-left-radius: 100px;
+  transition: all 400ms ease-in-out;
+}
+.menu-item:hover {
+ opacity: 0.5;
 }
 
-.menu-item p {
+.menu-item a {
   margin-top: auto;
   color: white;
+  text-decoration: none;
 }
 
 .menu-item.rojo {
@@ -200,7 +205,18 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.proyecto-individual .home .menu {
+/* .proyecto-individual .home .menu {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+} */
+.proyecto-individual .menu {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+}
+
+.inicio .menu {
   z-index: 1;
   position: absolute;
   right: 0;
