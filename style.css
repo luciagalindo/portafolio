@@ -117,8 +117,9 @@ body {
   border-top-left-radius: 100px;
   transition: all 400ms ease-in-out;
 }
+
 .menu-item:hover {
- opacity: 0.5;
+  opacity: 0.5;
 }
 
 .menu-item a {
