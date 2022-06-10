@@ -311,3 +311,13 @@ body {
   background-color: transparent;
 
 }
+@media screen and (max-width: 600px) {
+    .proyecto-individual .descripcion {
+        display: block;
+    }
+
+    .proyecto-individual .descripcion .icono {
+        display: block;
+        transform: scale(0.6);
+    }
+}
