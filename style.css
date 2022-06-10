@@ -312,8 +312,12 @@ body {
 
 }
 @media screen and (max-width: 600px) {
+   .proyecto-individual .descripcion h2 {
+     font-size: 90px;
+   }
     .proyecto-individual .descripcion {
         display: block;
+      padding: 20px;
     }
 
     .proyecto-individual .descripcion .icono {
